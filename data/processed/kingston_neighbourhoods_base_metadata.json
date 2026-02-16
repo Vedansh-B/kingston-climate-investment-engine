@@ -1,0 +1,14 @@
+{
+  "feature_count": 42,
+  "crs_epsg": 4326,
+  "analysis_crs_epsg": 32618,
+  "total_area_km2": 474.36217600000003,
+  "min_area_km2": 0.138759,
+  "max_area_km2": 100.025466,
+  "source": "City of Kingston Open Data",
+  "source_date": "2022-05-11",
+  "output_files": {
+    "canonical": "data/processed/kingston_neighbourhoods.gpkg",
+    "projected": "data/processed/kingston_neighbourhoods_utm18.gpkg"
+  }
+}
