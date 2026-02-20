@@ -1,0 +1,25 @@
+# Ignore large data
+data/raw/climate/nasa data dump/
+data/raw/climate/clear sky days
+data/raw/climate/clear sky nights
+*.tif
+*.tiff
+*.hdf
+*.h5
+*.nc
+*.gpkg
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
