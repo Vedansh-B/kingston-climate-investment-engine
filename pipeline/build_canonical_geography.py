@@ -100,7 +100,7 @@ def build_canonical(input_path: Path, output_dir: Path) -> None:
     if crs_epsg is None:
         raise ValueError("Could not resolve CRS EPSG code from input geometry.")
 
-    name_col = choose_column(gdf.columns.tolist(), ["neigh_name", "hoodname", "name", "neighbourhood", "neighborhood"])
+    name_col = choose_column(gdf.columns.tolist(), ["neigh_name", "hoodname", "name", "neighbourhood", "neighbourhood"])
     if not name_col:
         raise ValueError("Could not find a neighbourhood name column.")
 
