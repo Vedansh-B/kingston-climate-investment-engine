@@ -199,7 +199,7 @@ def main() -> None:
     parser.add_argument(
         "--input",
         type=Path,
-        default=Path("data/raw/kingston_neighbourhoods.geojson"),
+        default=Path("data/raw/administrative/kingston_neighbourhoods.geojson"),
         help="Path to raw neighbourhood boundary GeoJSON.",
     )
     parser.add_argument(
@@ -215,4 +215,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

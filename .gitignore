@@ -1,7 +1,4 @@
 # Ignore large data
-data/raw/climate/nasa data dump/
-data/raw/climate/clear sky days
-data/raw/climate/clear sky nights
 *.tif
 *.tiff
 *.hdf
@@ -9,6 +6,7 @@ data/raw/climate/clear sky nights
 *.nc
 *.gpkg
 *.zip
+*.csv
 
 # Python
 __pycache__/
