@@ -1,0 +1,20 @@
+hazard:
+  lst_day: 0.6
+  lst_night: 0.4
+
+vulnerability:
+  pct_low_income: 0.3
+  pct_seniors: 0.2
+  pct_seniors_living_alone: 0.1
+  pct_renters: 0.2
+  median_household_income: 0.1
+  pct_recent_immigrants: 0.1
+  pct_visible_minority: 0.0
+
+exposure:
+  enabled: false
+  indicators:
+    population_density: 1.0
+
+protective_indicators:
+  - median_household_income
