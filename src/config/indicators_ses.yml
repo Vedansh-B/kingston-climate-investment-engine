@@ -1,0 +1,152 @@
+features:
+  pct_low_income:
+    enabled: true
+    percent_feature: true
+    denominator_group: population
+    explicit_columns:
+      direct: []
+      numerator: []
+      denominator: []
+    keywords:
+      direct:
+        - low income
+        - low-income
+        - lim-at
+        - low-income status
+        - after-tax low income
+      numerator:
+        - low income
+        - low-income
+        - lim-at
+        - after-tax low income
+      denominator:
+        - population for whom low-income status is determined
+        - total population
+
+  pct_seniors:
+    enabled: true
+    percent_feature: true
+    denominator_group: population
+    explicit_columns:
+      direct: []
+      numerator: []
+      denominator: []
+    keywords:
+      direct:
+        - 65 years and over
+        - 65 years or over
+        - aged 65 and over
+        - seniors
+      numerator:
+        - 65 years and over
+        - 65 years or over
+        - aged 65 and over
+      denominator:
+        - total age groups of the population
+        - total population
+
+  pct_seniors_living_alone:
+    enabled: true
+    percent_feature: true
+    denominator_group: population
+    explicit_columns:
+      direct: []
+      numerator: []
+      denominator: []
+    keywords:
+      direct:
+        - 65 years and over living alone
+        - seniors living alone
+        - one-person private households 65 years and over
+      numerator:
+        - 65 years and over living alone
+        - seniors living alone
+        - one-person private households 65 years and over
+      denominator:
+        - 65 years and over
+        - total population
+
+  pct_renters:
+    enabled: true
+    percent_feature: true
+    denominator_group: households
+    explicit_columns:
+      direct: []
+      numerator: []
+      denominator: []
+    keywords:
+      direct:
+        - renter
+        - tenant
+        - rented
+      numerator:
+        - renter
+        - tenant
+        - rented
+      denominator:
+        - total private households
+        - occupied private dwellings
+
+  median_household_income:
+    enabled: true
+    percent_feature: false
+    explicit_columns:
+      direct: []
+      numerator: []
+      denominator: []
+    keywords:
+      direct:
+        - median household income
+        - average household income
+      numerator: []
+      denominator: []
+
+  pct_recent_immigrants:
+    enabled: true
+    percent_feature: true
+    denominator_group: population
+    explicit_columns:
+      direct: []
+      numerator: []
+      denominator: []
+    keywords:
+      direct:
+        - recent immigrants
+        - immigrants who landed between
+      numerator:
+        - recent immigrants
+        - immigrants who landed between
+      denominator:
+        - immigrant status
+        - total population
+
+  pct_visible_minority:
+    enabled: true
+    percent_feature: true
+    denominator_group: population
+    explicit_columns:
+      direct: []
+      numerator: []
+      denominator: []
+    keywords:
+      direct:
+        - total visible minority population
+        - racialized population
+      numerator:
+        - total visible minority population
+        - racialized population
+      denominator:
+        - total population
+
+denominators:
+  population:
+    - total - age groups of the population - 100% data
+    - population, 2021
+    - total population
+  households:
+    - total - private households by household size
+    - total private households
+    - private dwellings occupied by usual residents
+  dwellings:
+    - private dwellings occupied by usual residents
+    - total private dwellings
